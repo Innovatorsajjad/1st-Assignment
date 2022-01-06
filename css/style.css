@@ -2,14 +2,22 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    margin: 0;
+    padding: 0;
 
+}
+.padding{
+    padding: 30px 0 30px 0;
+}
+.flix{
+    display: flex;
 }
 .blue_color{
     color: blue;
 }
 .orange_color{color:orange}
 p{
-    padding: 20px 0;
+    padding: 10px 0;
     font-family: 'Play', sans-serif;
     color: rgb(93, 93, 93);
     font-weight: 500;
@@ -33,10 +41,10 @@ img{
 }
 section{
     margin: 5% 10% 0 10%; 
+    padding: 30px 0 30px 0;
 
     }
-.first_banner{
-    display: flex;
+.space{
     justify-content: space-between;
 }
 .first_banner h1{
@@ -64,9 +72,7 @@ section{
 .second_banner h1{
     text-align: center;
 }
-.boxes{
-    display: flex;
-}
+
 .missions{
     width: 30%; 
     height: 420px;  
@@ -84,3 +90,13 @@ section{
 #mission{background-color:#EEF5F6;}
 #vission{background-color:#FEEEEE;}
 #goals{background-color:#FDF6D7;}
+
+
+
+.footer_menu{
+    padding: 15px 0 15px 0;
+    color: white;
+    background-color: #0C0C17;
+    text-align: center;
+
+}

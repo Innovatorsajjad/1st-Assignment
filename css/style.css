@@ -23,9 +23,9 @@ body{
 p{
     padding: 10px 0;
     font-family: 'Play', sans-serif;
-    color: rgb(93, 93, 93);
     font-weight: 500;
     font-size: 20px;
+    color: rgb(105, 87, 87);
 }
 h1{
     font-family: 'Cormorant', serif;
@@ -36,9 +36,10 @@ h2{
     font-family: 'Cormorant', serif;
     font-size: 40px;
 }
-h3{
+
+h4{
     font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 img{
     width: 80%;
@@ -75,7 +76,7 @@ section{
     text-align: center;
 }
 
-.missions{
+.treeple_part{
     width: 30%; 
     height: 420px;  
     border-radius: 5px;
@@ -85,7 +86,7 @@ section{
     padding:30px;
     margin-bottom: 50px;
 }
-.missions img{
+.treeple_part img{
     width: 150px;
 }
 .background{
@@ -100,6 +101,16 @@ section{
 #mission{background-color:#EEF5F6;}
 #vission{background-color:#FEEEEE;}
 #goals{background-color:#FDF6D7;}
+
+.single_boxes{
+    text-align: center;
+    background-image: linear-gradient( #f87e70, #5e5a59);
+    color: white;
+
+}
+.single_boxes p{
+    color: white;
+}
 
 .footer_menu{
     padding: 15px 0 15px 0;

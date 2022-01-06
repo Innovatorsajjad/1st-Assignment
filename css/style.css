@@ -4,13 +4,17 @@ html{
 body{
     margin: 0;
     padding: 0;
-
+}
+.boxesofDiv{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .padding{
     padding: 30px 0 30px 0;
 }
 .flix{
     display: flex;
+    
 }
 .blue_color{
     color: blue;
@@ -40,19 +44,17 @@ img{
     width: 80%;
 }
 section{
-    margin: 5% 10% 0 10%; 
+    margin: 35px 0 35px 0;
     padding: 30px 0 30px 0;
 
     }
-.space{
-    justify-content: space-between;
-}
+
 .first_banner h1{
     margin-left: 20px;
 }
 .half_banner{
     width: 40%;
-    
+    padding-left: 100px;
 }
 .tomato_button{
     text-decoration: none;
@@ -77,7 +79,7 @@ section{
     width: 30%; 
     height: 420px;  
     border-radius: 5px;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 .single_box{
     padding:30px;
@@ -86,17 +88,22 @@ section{
 .missions img{
     width: 150px;
 }
+.background{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position:left,center;
+}
+.background_right{
+    background-position:right bottom;}
 
 #mission{background-color:#EEF5F6;}
 #vission{background-color:#FEEEEE;}
 #goals{background-color:#FDF6D7;}
-
-
 
 .footer_menu{
     padding: 15px 0 15px 0;
     color: white;
     background-color: #0C0C17;
     text-align: center;
-
 }
